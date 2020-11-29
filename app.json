@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "parallax-carousel",
+    "name": "Parallax Carousel",
     "slug": "parallax-carousel",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -17,9 +17,13 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.yourappname",
+      "buildNumber": "1.0.0"
     },
     "android": {
+      "package": "com.eliasgcf.parallaxcarousel",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
